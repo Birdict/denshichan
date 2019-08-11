@@ -2,9 +2,14 @@
   "name": "checkch",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "v12.2.0"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-pose": "^4.0.8",
     "react-scripts": "3.0.1"
   },
   "scripts": {

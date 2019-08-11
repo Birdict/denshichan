@@ -1,0 +1,45 @@
+
+body {
+    height: 100vh;
+    padding: 0;
+  }
+  
+  #root {
+    width: 100%;
+  }
+  
+  article {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  p {
+    font-size: 18px;
+    font-family: PT Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    display: block;
+    padding: 0 10px;
+  }
+  
+  img {
+    cursor: zoom-in;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  img.zoomed {
+    cursor: zoom-out;
+  }
+  
+  .frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: white;
+    transform: translateZ(0);
+  }
+  
