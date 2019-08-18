@@ -1,0 +1,18 @@
+
+.header {
+    /* transform: rotate(-30deg) translateY(-30vh) translateX(30vh); */
+    font-size: 50px;
+    /* background: darkgrey; */
+    /* color: white; */
+    font-family: neon;
+    text-shadow: 1px 2px 3px;
+}
+
+.header p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: neon;
+    src: url(https://fonts.googleapis.com/css?family=Orbitron&display=swap);
+}
